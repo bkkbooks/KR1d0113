@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR1d0113/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR1d0113/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 王氏喪服要記一卷
+  identifiers:
+    krp: KR1d0113
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0113.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0113_001-CHANT.yaml, hash: 'sha256:b66a23fc41f6024ac32eef24813c5decf97ac7fb222b531bc0d263fcfab71035'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0113_001-CHANT.markers.yaml, hash: 'sha256:ca0665d8f0b49115b6776bf84ed5db707c39c1e1f5b2b8f0ec0bd02661f79880'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0113_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 996
+  label: 王氏喪服要記
+  type: section
+  level: 1
+hash: sha256:a364a4fa26d0e311337cfc1b899771c4ac3c6358c9ff806e9315e31db6dae719
